@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about TechCon 2024 - Our history, mission, and notable past speakers">
+    <title>About TechCon 2024</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            background-color: rgba(255, 255, 255, 0.2);
+            outline: 2px solid white;
+            outline-offset: 2px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        article {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        article h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        article p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            margin: 1rem 0;
+        }
+
+        .history-image {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: 1.5rem auto;
+        }
+
+        .mission-icon {
+            width: 200px;
+            display: block;
+            margin: 1.5rem auto;
+        }
+
+        .speakers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .speaker-card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .speaker-photo {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: block;
+            border: 4px solid #667eea;
+        }
+
+        .speaker-card h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .speaker-card p {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            main {
+                padding: 0 1rem;
+            }
+
+            article {
+                padding: 1.5rem;
+            }
+
+            .speakers-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>About TechCon 2024</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <h2>History</h2>
+            <p>
+                TechCon was founded in 2015 by a group of passionate technologists who recognized 
+                the need for a platform where industry leaders, innovators, and enthusiasts could 
+                come together to share knowledge and shape the future of technology. What started 
+                as a small gathering of 200 attendees has grown into one of the most prestigious 
+                technology conferences in the world, attracting over 10,000 participants annually.
+            </p>
+            <p>
+                Over the years, TechCon has evolved to reflect the rapid changes in the tech 
+                landscape. From the early days focusing on web development and cloud infrastructure, 
+                we've expanded to cover artificial intelligence, machine learning, cybersecurity, 
+                blockchain, quantum computing, and sustainable technology solutions. Each year, 
+                we've pushed boundaries and set new standards for what a technology conference 
+                can achieve.
+            </p>
+            <img src="/img/techcon2014.jpg" alt="Historical photo of the first TechCon conference in 2015 showing attendees in the main hall" class="history-image">
+            <p>
+                Our journey has been marked by innovation, collaboration, and a commitment to 
+                excellence. We've hosted groundbreaking keynotes, facilitated thousands of 
+                networking connections, and inspired countless professionals to push the 
+                boundaries of what's possible in technology.
+            </p>
+        </article>
+
+        <article>
+            <h2>Mission</h2>
+            <p>
+                At TechCon 2024, our mission is to foster innovation, inspire collaboration, and 
+                drive positive change in the technology industry. We believe that technology has 
+                the power to transform lives, solve global challenges, and create a better future 
+                for all. Our conference serves as a catalyst for meaningful conversations, 
+                groundbreaking ideas, and lasting partnerships.
+            </p>
+            <img src="/img/mission.jpg" alt="Icon representing innovation and collaboration in technology" class="mission-icon">
+            <p>
+                We are committed to:
+            </p>
+            <ul style="margin-left: 2rem; margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 2;">
+                <li>Promoting diversity and inclusion in the tech industry</li>
+                <li>Supporting emerging technologies and startups</li>
+                <li>Encouraging ethical and sustainable technology practices</li>
+                <li>Bridging the gap between academia and industry</li>
+                <li>Empowering the next generation of tech leaders</li>
+            </ul>
+            <p>
+                Through our carefully curated sessions, workshops, and networking events, we aim 
+                to create an environment where ideas flourish, connections are made, and the 
+                future of technology is shaped by the brightest minds in the field.
+            </p>
+        </article>
+
+        <article>
+            <h2>Past Speakers</h2>
+            <p>
+                TechCon has been honored to host some of the most influential figures in technology. 
+                Our past speakers have included visionary CEOs, groundbreaking researchers, 
+                innovative entrepreneurs, and thought leaders who have shaped the digital landscape. 
+                Here are just a few of the notable speakers who have graced our stage:
+            </p>
+            
+            <div class="speakers-grid">
+                <div class="speaker-card">
+                    <img src="/img/Dr. Sarah Chen.jpg" alt="Photo of Dr. Sarah Chen, AI researcher and former TechCon speaker" class="speaker-photo">
+                    <h3>Dr. Sarah Chen</h3>
+                    <p><strong>AI Research Director, TechInnovate Labs</strong></p>
+                    <p>
+                        Dr. Chen delivered a groundbreaking keynote on ethical AI development at 
+                        TechCon 2022. Her research in machine learning ethics has influenced 
+                        industry standards worldwide, and she has been recognized as one of the 
+                        top 50 women in AI.
+                    </p>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="/img/Michael Rodriguez.jpg" alt="Photo of Michael Rodriguez, cybersecurity expert and former TechCon speaker" class="speaker-photo">
+                    <h3>Michael Rodriguez</h3>
+                    <p><strong>Chief Security Officer, SecureNet Global</strong></p>
+                    <p>
+                        A cybersecurity pioneer, Rodriguez shared his expertise on next-generation 
+                        threat detection at TechCon 2021. With over 20 years of experience, he 
+                        has helped protect critical infrastructure for governments and Fortune 500 
+                        companies globally.
+                    </p>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="/img/Priya Patel.jpg" alt="Photo of Priya Patel, cloud computing expert and former TechCon speaker" class="speaker-photo">
+                    <h3>Priya Patel</h3>
+                    <p><strong>VP of Cloud Architecture, CloudScale Technologies</strong></p>
+                    <p>
+                        Patel's presentation on sustainable cloud computing at TechCon 2023 
+                        revolutionized how companies approach infrastructure. Her work on 
+                        energy-efficient data centers has reduced carbon footprints by millions 
+                        of tons annually.
+                    </p>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="/img/James Wilson.jpg" alt="Photo of James Wilson, blockchain innovator and former TechCon speaker" class="speaker-photo">
+                    <h3>James Wilson</h3>
+                    <p><strong>Founder & CEO, BlockChain Solutions Inc.</strong></p>
+                    <p>
+                        Wilson's visionary talk on decentralized systems at TechCon 2020 
+                        introduced many to the potential of blockchain beyond cryptocurrency. 
+                        His company has since developed solutions used by major financial 
+                        institutions worldwide.
+                    </p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 TechCon 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
